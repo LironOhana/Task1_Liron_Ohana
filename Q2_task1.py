@@ -1,7 +1,7 @@
 def revword(word):
     word = word[::-1].lower()
     return word
-
+######################################
 def countword(fname):
     counter = 1
     PATH = "C:/Users/liron/Downloads/"
@@ -22,6 +22,5 @@ def countword(fname):
                 counter+=1
             new_text[line].append(temp_word)
     return counter
-
-
+###############################################
 print(countword("text"))

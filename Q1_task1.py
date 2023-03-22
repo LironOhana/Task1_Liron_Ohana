@@ -2,8 +2,6 @@ def my_func(x1,x2,x3):
    if not (isinstance(x1, float) and isinstance(x2, float) and isinstance(x3, float)):
        if (isinstance(x1, str) or isinstance(x2, str) or isinstance(x3, str)):
            return print(None)
-       # elif (not isinstance(x1, ) or isinstance(x2, str) or isinstance(x3, str)):
-       #     return None
        else:
            return print("Error: parameters should be float")
    elif (x1+x2+x3)==0:
